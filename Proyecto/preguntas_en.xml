@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+  <question id="1">
+    <wording>Where is Palos de la Frontera located?</wording>
+    <choices>
+      <choice correct="yes">In the province of Huelva, Andalusia</choice>
+      <choice>In the province of Cádiz</choice>
+      <choice>In Castilla y León</choice>
+      <choice>On the island of Tenerife</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>What historical event is linked to Palos de la Frontera?</wording>
+    <choices>
+      <choice correct="yes">The departure of Columbus’s first voyage to America</choice>
+      <choice>The Battle of Trafalgar</choice>
+      <choice>The signing of the Treaty of Tordesillas</choice>
+      <choice>The Napoleonic invasion</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>Which river flows through Palos de la Frontera?</wording>
+    <choices>
+      <choice correct="yes">Tinto River</choice>
+      <choice>Guadalquivir</choice>
+      <choice>Guadiana</choice>
+      <choice>Duero</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Which three ships departed from Palos in 1492?</wording>
+    <choices>
+      <choice correct="yes">The Niña, the Pinta and the Santa María</choice>
+      <choice>The Victoria, the Hope and the Trinity</choice>
+      <choice>The Concepción, the Isabel and the San Juan</choice>
+      <choice>The Colón, the América and the Dove</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>What monument in Palos commemorates Columbus's voyage?</wording>
+    <choices>
+      <choice correct="yes">The Wharf of the Caravels (Muelle de las Carabelas)</choice>
+      <choice>The Tower of Gold</choice>
+      <choice>The Lighthouse of Huelva</choice>
+      <choice>The Alcazar of the Catholic Monarchs</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>Which religious order supported Columbus in Palos?</wording>
+    <choices>
+      <choice correct="yes">The Franciscans of La Rábida Monastery</choice>
+      <choice>The Dominicans of Santo Tomás</choice>
+      <choice>The Carthusians of Seville</choice>
+      <choice>The Benedictines of San Juan</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Which port did Columbus use to depart to America?</wording>
+    <choices>
+      <choice correct="yes">Palos Port</choice>
+      <choice>Cádiz Port</choice>
+      <choice>Seville Port</choice>
+      <choice>Barcelona Port</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>What is the date of Columbus's departure from Palos?</wording>
+    <choices>
+      <choice correct="yes">August 3rd, 1492</choice>
+      <choice>October 12th, 1492</choice>
+      <choice>January 1st, 1492</choice>
+      <choice>July 4th, 1492</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>Which museum in Palos is related to the discovery of America?</wording>
+    <choices>
+      <choice correct="yes">Wharf of the Caravels</choice>
+      <choice>Naval Museum of Cádiz</choice>
+      <choice>Seville Archaeological Museum</choice>
+      <choice>America Museum</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Who were the monarchs during Columbus’s voyage from Palos?</wording>
+    <choices>
+      <choice correct="yes">The Catholic Monarchs</choice>
+      <choice>Philip II</choice>
+      <choice>Charles I</choice>
+      <choice>Isabella II</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>Which famous figure accompanied Columbus from Palos?</wording>
+    <choices>
+      <choice correct="yes">Martín Alonso Pinzón</choice>
+      <choice>Ferdinand Magellan</choice>
+      <choice>Hernán Cortés</choice>
+      <choice>Amerigo Vespucci</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>Why is the Monastery of La Rábida important?</wording>
+    <choices>
+      <choice correct="yes">Columbus received support there for his voyage</choice>
+      <choice>The Catholic Monarchs lived there</choice>
+      <choice>It was built by the Romans</choice>
+      <choice>The Treaty of Tordesillas was signed there</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>What is the demonym for people from Palos de la Frontera?</wording>
+    <choices>
+      <choice correct="yes">Palermo</choice>
+      <choice>Paleño</choice>
+      <choice>Palense</choice>
+      <choice>Palino</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>What is the traditional main economic activity in Palos?</wording>
+    <choices>
+      <choice correct="yes">Agriculture and fishing</choice>
+      <choice>Mining</choice>
+      <choice>Livestock farming</choice>
+      <choice>International maritime trade</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>What event is celebrated every August 3rd in Palos?</wording>
+    <choices>
+      <choice correct="yes">Columbus's departure to America</choice>
+      <choice>The Strawberry Fair</choice>
+      <choice>St. George’s Day</choice>
+      <choice>The Discovery of the New World</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>What is one of Palos's most well-known agricultural products?</wording>
+    <choices>
+      <choice correct="yes">Strawberries</choice>
+      <choice>Olives</choice>
+      <choice>Grapes</choice>
+      <choice>Wheat</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>Which educational institution is near Palos?</wording>
+    <choices>
+      <choice correct="yes">International University of Andalusia (UNIA)</choice>
+      <choice>University of Granada</choice>
+      <choice>University of Salamanca</choice>
+      <choice>Complutense University</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>What is the full name of the town?</wording>
+    <choices>
+      <choice correct="yes">Palos de la Frontera</choice>
+      <choice>Palos del Atlántico</choice>
+      <choice>Palos de América</choice>
+      <choice>Port of Palos</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>Which local festival is declared of Tourist Interest in Andalusia?</wording>
+    <choices>
+      <choice correct="yes">The Festival of the Discoverers</choice>
+      <choice>Holy Week</choice>
+      <choice>Palos Carnival</choice>
+      <choice>El Rocío Pilgrimage</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>What honorary title does Palos de la Frontera hold?</wording>
+    <choices>
+      <choice correct="yes">Cradle of the Discovery</choice>
+      <choice>Heritage City</choice>
+      <choice>Royal Town</choice>
+      <choice>Imperial City</choice>
+    </choices>
+  </question>
+</test>
